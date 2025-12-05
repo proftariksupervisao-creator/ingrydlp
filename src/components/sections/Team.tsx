@@ -25,17 +25,17 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className="py-20 px-6 bg-primary">
+    <section className="py-20 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-serif text-4xl md:text-5xl text-center mb-4 text-primary-foreground">
+        <h2 className="font-serif text-4xl md:text-5xl text-center mb-4 text-foreground">
           EQUIPE INTEGRADA
         </h2>
         
-        <p className="text-center text-primary-foreground/80 text-lg md:text-xl mb-6 max-w-3xl mx-auto">
+        <p className="text-center text-foreground/80 text-lg md:text-xl mb-6 max-w-3xl mx-auto">
           Cuidado completo, com profissionais que caminham junto com você
         </p>
         
-        <p className="text-center text-primary-foreground/70 mb-16 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-center text-foreground/70 mb-16 max-w-4xl mx-auto leading-relaxed">
           Aqui, você não está sozinho. Para garantir uma transformação verdadeira, que vá além da nutrição e respeite todas as dimensões da sua saúde, você conta com uma equipe integrada, que compartilha dos mesmos valores e da mesma missão: restaurar sua qualidade de vida!
         </p>
 
