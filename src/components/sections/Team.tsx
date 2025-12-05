@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import drCaioImage from "@/assets/dr-caio.jpg";
+import rossanaImage from "@/assets/rossana.jpg";
 
 const teamMembers = [
   {
@@ -12,7 +13,7 @@ const teamMembers = [
     name: "Rossana",
     role: "Nutri Personal Chef",
     description: "Transforma o plano alimentar em sabor e praticidade. Ela prepara suas refeições saudáveis no conforto da sua casa, respeitando as orientações nutricionais com afeto, leveza e sabor de comida de verdade.",
-    image: null,
+    image: rossanaImage,
   },
   {
     name: "Lucas",
