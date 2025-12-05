@@ -31,9 +31,14 @@ const TestimonialCard = ({ text, author }: { text: string; author: string }) => 
       <p className="text-foreground leading-relaxed italic">
         "{text}"
       </p>
-      <p className="text-primary font-semibold">
-        — {author}
-      </p>
+      <div className="flex items-center gap-3">
+        <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+          <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
+        </div>
+        <p className="text-primary font-semibold">
+          — {author}
+        </p>
+      </div>
     </div>
   </Card>
 );
