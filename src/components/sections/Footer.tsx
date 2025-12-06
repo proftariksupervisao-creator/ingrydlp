@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Instagram } from "lucide-react";
+import { Instagram, MapPin } from "lucide-react";
 import { openWhatsApp } from "@/lib/whatsapp";
 const Footer = () => {
   return <footer id="contact" className="py-20 px-6 bg-dark text-primary-foreground">
@@ -20,7 +20,12 @@ const Footer = () => {
           
         </div>
         
-        <div className="pt-12 border-t border-primary-foreground/20">
+        <div className="pt-12 border-t border-primary-foreground/20 space-y-4">
+          <div className="flex items-center justify-center gap-2 text-primary-foreground/80">
+            <MapPin className="w-5 h-5" />
+            <span>Alameda dos Anapurus, 1912 - Higienópolis, SP</span>
+          </div>
+          
           <a href="https://www.instagram.com/ingrydcarolnutri/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
             <Instagram className="w-5 h-5" />
             <span>@ingrydcarolnutri</span>
