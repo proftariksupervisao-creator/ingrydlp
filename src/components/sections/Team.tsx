@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import drCaioImage from "@/assets/dr-caio.jpg";
 import rossanaImage from "@/assets/rossana.jpg";
-
+import drLucasImage from "@/assets/dr-lucas.jpg";
 const teamMembers = [
   {
     name: "Dr. Caio",
@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Dr. Lucas",
     role: "Nutricionista Especializado em Endometriose",
     description: "Aprofunda o cuidado de pacientes com endometriose, trazendo um acompanhamento nutricional personalizado para quem convive com dores, inflamações e desequilíbrios hormonais.",
-    image: null,
+    image: drLucasImage,
   },
 ];
 
