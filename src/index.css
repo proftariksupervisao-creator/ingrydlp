@@ -9,41 +9,41 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 40 56% 91%;
-    --foreground: 93 78% 14%;
+    --foreground: 73 10% 27%;
 
     --card: 40 56% 91%;
-    --card-foreground: 93 78% 14%;
+    --card-foreground: 73 10% 27%;
 
     --popover: 40 56% 91%;
-    --popover-foreground: 93 78% 14%;
+    --popover-foreground: 73 10% 27%;
 
-    --primary: 93 78% 14%;
+    --primary: 73 10% 27%;
     --primary-foreground: 40 56% 96%;
 
     --secondary: 40 56% 91%;
-    --secondary-foreground: 93 78% 14%;
+    --secondary-foreground: 73 10% 27%;
 
-    --muted: 93 50% 30%;
-    --muted-foreground: 93 30% 45%;
+    --muted: 73 8% 40%;
+    --muted-foreground: 73 6% 50%;
 
     --accent: 32 43% 71%;
-    --accent-foreground: 93 78% 14%;
+    --accent-foreground: 73 10% 27%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 40 56% 96%;
 
-    --border: 93 30% 70%;
-    --input: 93 30% 70%;
-    --ring: 93 78% 14%;
+    --border: 73 8% 70%;
+    --input: 73 8% 70%;
+    --ring: 73 10% 27%;
 
     --radius: 1rem;
     
-    --sage-green: 93 78% 14%;
-    --sage-green-light: 93 60% 25%;
-    --sage-green-dark: 93 85% 10%;
+    --sage-green: 73 10% 27%;
+    --sage-green-light: 73 8% 40%;
+    --sage-green-dark: 73 12% 18%;
     --beige: 40 56% 91%;
     --gold: 32 43% 71%;
-    --dark: 93 78% 8%;
+    --dark: 73 10% 15%;
     
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --shadow-3xl: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
