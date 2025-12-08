@@ -4,9 +4,12 @@ import { Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { openWhatsApp } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
+import nataliaImage from "@/assets/natalia-testimonial.jpg";
+
 const testimonials = [{
   text: "A Consulta da Dra. Ingryd foi incrivelmente diferente de todas que já passei, ela é humana, atenciosa aos detalhes, entende a sua dor, acolhe e cuida do seu objetivo de forma sensata e respeitosa. Olhou todos os meus exames, pediu outros exames que nem médico havia pedido e de fato consegui chegar no resultado que esperava. Indico de olhos fechados!",
-  author: "Nathalia M."
+  author: "Nathalia M.",
+  image: nataliaImage
 }, {
   text: "Maravilhosa, a dr deixa tudo mais leve que se encaixe no dia a dia, nada de extremismo, fazer as dietas recomendadas por ela me deixaram com mais disposição, melhorou minha autoestima. Recomendo, eliminei 8 quilos sem passar fome, ou melhor comendo muito bem.",
   author: "Danyelle R."
@@ -20,12 +23,15 @@ const testimonials = [{
   text: "Ingryd eu estava sobrevivendo. Como dava. Nem remédio da tireóide eu estava tomando porque já acordava com azia tomando omeprazol. E agora eu não sinto mais nada! Eu janto as 19h/20h, durmo às 22h e acordo às 6h. Eu começava acordar 3:30, 4h, com refluxo, azia, zero qualidade de vida, de sono, cogitando fazer jejum prolongado porque não via mais uma maneira de comer e me sentir bem. Mesmo comendo 'saudável' só piorava.",
   author: "Fernanda L."
 }];
+
 const TestimonialCard = ({
   text,
-  author
+  author,
+  image
 }: {
   text: string;
   author: string;
+  image?: string;
 }) => <Card className="p-6 border-0 shadow-md relative flex-shrink-0 w-[85vw] md:w-[45%] bg-card">
     <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/20" />
     <div className="space-y-4">
@@ -33,9 +39,17 @@ const TestimonialCard = ({
         "{text}"
       </p>
       <div className="flex items-center gap-3">
-        <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-          <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
-        </div>
+        {image ? (
+          <img 
+            src={image} 
+            alt={author} 
+            className="w-10 h-10 rounded-full object-cover border-2 border-primary/20"
+          />
+        ) : (
+          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+            <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
+          </div>
+        )}
         <p className="text-primary font-semibold">
           — {author}
         </p>
@@ -130,7 +144,7 @@ const Testimonials = () => {
           <div ref={trackRef} className={cn("flex gap-6", isTransitioning && "transition-transform duration-500 ease-out")} style={{
           transform: getTransform()
         }}>
-            {extendedTestimonials.map((testimonial, index) => <TestimonialCard key={index} text={testimonial.text} author={testimonial.author} />)}
+            {extendedTestimonials.map((testimonial, index) => <TestimonialCard key={index} text={testimonial.text} author={testimonial.author} image={testimonial.image} />)}
           </div>
         </div>
       </div>
