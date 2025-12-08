@@ -1,6 +1,6 @@
 // WhatsApp contact configuration
 // TODO: Replace with actual WhatsApp number
-const WHATSAPP_NUMBER = '5511999999999';
+const WHATSAPP_NUMBER = '5511941837634';
 const DEFAULT_MESSAGE = 'Olá! Gostaria de agendar uma consulta.';
 
 // Input validation and sanitization for security
