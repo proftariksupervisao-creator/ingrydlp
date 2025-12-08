@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { openWhatsApp } from "@/lib/whatsapp";
 import { cn } from "@/lib/utils";
 import nataliaImage from "@/assets/natalia-testimonial.jpg";
+import sukyImage from "@/assets/suky-testimonial.jpg";
 
 const testimonials = [{
   text: "A Consulta da Dra. Ingryd foi incrivelmente diferente de todas que já passei, ela é humana, atenciosa aos detalhes, entende a sua dor, acolhe e cuida do seu objetivo de forma sensata e respeitosa. Olhou todos os meus exames, pediu outros exames que nem médico havia pedido e de fato consegui chegar no resultado que esperava. Indico de olhos fechados!",
@@ -18,7 +19,8 @@ const testimonials = [{
   author: "Diego S."
 }, {
   text: "Profissional MARAVILHOSA! Atenciosa, acolhedora, cuidadosa, paciente rsrs de fato, a melhor nutricionista. Sempre pronta para nos ajudar, puxar a orelha também rsrs mas sempre tenta entender o que gostamos e como somos e adequa a alimentação de acordo conosco. Eu não tenho palavras… nota 100000",
-  author: "Suky A."
+  author: "Suky A.",
+  image: sukyImage
 }, {
   text: "Ingryd eu estava sobrevivendo. Como dava. Nem remédio da tireóide eu estava tomando porque já acordava com azia tomando omeprazol. E agora eu não sinto mais nada! Eu janto as 19h/20h, durmo às 22h e acordo às 6h. Eu começava acordar 3:30, 4h, com refluxo, azia, zero qualidade de vida, de sono, cogitando fazer jejum prolongado porque não via mais uma maneira de comer e me sentir bem. Mesmo comendo 'saudável' só piorava.",
   author: "Fernanda L."
