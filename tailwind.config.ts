@@ -90,8 +90,8 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        marquee: "marquee 25s linear infinite",
-        "marquee-reverse": "marquee-reverse 25s linear infinite",
+        marquee: "marquee 35s linear infinite",
+        "marquee-reverse": "marquee-reverse 35s linear infinite",
         "marquee-slow": "marquee 80s linear infinite",
         "marquee-reverse-slow": "marquee-reverse 80s linear infinite",
         "scroll-testimonials": "scroll-testimonials 30s linear infinite",
