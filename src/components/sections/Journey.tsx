@@ -34,18 +34,40 @@ const Journey = () => {
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {profiles.map((profile, index) => (
-              <Card key={index} className="p-6 border-0 shadow-md hover:shadow-lg transition-smooth h-full">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary flex items-center justify-center mt-1">
-                    <Check className="w-4 h-4 text-primary-foreground" />
+            {profiles.map((profile, index) => {
+              // Desktop: left column (even index) = white, right column (odd index) = green
+              // Mobile: alternating colors
+              const isGreen = index % 2 === 1;
+              
+              return (
+                <Card 
+                  key={index} 
+                  className={`relative overflow-hidden border-0 shadow-md hover:shadow-lg transition-smooth h-full ${
+                    isGreen ? 'bg-primary' : 'bg-card'
+                  }`}
+                >
+                  <div className={`absolute left-0 top-0 bottom-0 w-1 ${
+                    isGreen ? 'bg-primary-foreground/30' : 'bg-primary'
+                  }`} />
+                  <div className="p-6 pl-5">
+                    <div className="flex items-start gap-4">
+                      <div className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-1 ${
+                        isGreen ? 'bg-primary-foreground' : 'bg-primary'
+                      }`}>
+                        <Check className={`w-4 h-4 ${
+                          isGreen ? 'text-primary' : 'text-primary-foreground'
+                        }`} />
+                      </div>
+                      <p className={`leading-relaxed flex-1 ${
+                        isGreen ? 'text-primary-foreground' : 'text-foreground'
+                      }`}>
+                        {profile}
+                      </p>
+                    </div>
                   </div>
-                  <p className="text-foreground leading-relaxed flex-1">
-                    {profile}
-                  </p>
-                </div>
-              </Card>
-            ))}
+                </Card>
+              );
+            })}
           </div>
         </div>
 
