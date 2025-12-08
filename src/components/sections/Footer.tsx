@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="pt-12 border-t border-primary-foreground/20">
           <a href="https://www.google.com/maps/search/?api=1&query=Alameda+dos+Anapurus+1912+Higienopolis+SP" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
             <MapPin className="w-5 h-5" />
-            <span>Alameda dos Anapurus, 1912 - Higienópolis, SP</span>
+            <span>Alameda dos Anapurus, 1912 - Indianápolis, SP</span>
           </a>
         </div>
         
