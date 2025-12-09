@@ -23,7 +23,7 @@ const testimonials = [{
   image: sukyImage
 }, {
   text: "Ingryd eu estava sobrevivendo. Como dava. Nem remédio da tireóide eu estava tomando porque já acordava com azia tomando omeprazol. E agora eu não sinto mais nada! Eu janto as 19h/20h, durmo às 22h e acordo às 6h. Eu começava acordar 3:30, 4h, com refluxo, azia, zero qualidade de vida, de sono, cogitando fazer jejum prolongado porque não via mais uma maneira de comer e me sentir bem. Mesmo comendo 'saudável' só piorava.",
-  author: "Fernanda L."
+  author: "Cidinha"
 }];
 
 const TestimonialCard = ({
