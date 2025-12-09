@@ -4,6 +4,9 @@ import heroImage from "@/assets/ingryd-hero.jpg";
 import heroImageDesktop from "@/assets/ingryd-hero-desktop.png";
 import { openWhatsApp } from "@/lib/whatsapp";
 import { memo } from "react";
+import nataliaImage from "@/assets/natalia-testimonial.jpg";
+import sukyImage from "@/assets/suky-testimonial.jpg";
+import danyelleImage from "@/assets/danyelle-testimonial.jpg";
 const Hero = memo(() => {
   return <section className="relative min-h-screen bg-gradient-to-br from-dark via-dark/95 to-primary/20 overflow-hidden">
       {/* Mobile Layout - Image Background */}
@@ -47,9 +50,9 @@ const Hero = memo(() => {
           animationDelay: '0.3s'
         }}>
             <div className="flex -space-x-2">
-              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-accent border-2 border-white/50" />
-              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-accent/80 border-2 border-white/50" />
-              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-accent/60 border-2 border-white/50" />
+              <img src={nataliaImage} alt="Cliente" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border-2 border-white/50" />
+              <img src={sukyImage} alt="Cliente" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border-2 border-white/50" />
+              <img src={danyelleImage} alt="Cliente" className="w-7 h-7 sm:w-8 sm:h-8 rounded-full object-cover border-2 border-white/50" />
             </div>
             <p className="text-xs sm:text-sm text-white/80">
               + de <span className="font-bold text-white"> 500 pessoas</span> transformadas
@@ -100,9 +103,9 @@ const Hero = memo(() => {
             animationDelay: '0.3s'
           }}>
               <div className="flex -space-x-2">
-                <div className="w-9 h-9 rounded-full bg-accent border-2 border-white/50" />
-                <div className="w-9 h-9 rounded-full bg-accent/80 border-2 border-white/50" />
-                <div className="w-9 h-9 rounded-full bg-accent/60 border-2 border-white/50" />
+                <img src={nataliaImage} alt="Cliente" className="w-9 h-9 rounded-full object-cover border-2 border-white/50" />
+                <img src={sukyImage} alt="Cliente" className="w-9 h-9 rounded-full object-cover border-2 border-white/50" />
+                <img src={danyelleImage} alt="Cliente" className="w-9 h-9 rounded-full object-cover border-2 border-white/50" />
               </div>
               <p className="text-sm text-white/80">
                 + de <span className="font-bold text-white"> 500 pessoas</span> transformadas
