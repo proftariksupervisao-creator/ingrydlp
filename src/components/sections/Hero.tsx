@@ -24,12 +24,12 @@ const Hero = memo(() => {
             </p>
             
             <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl leading-tight font-bold text-white">
-              Recupere a saúde e energia que você nunca deveria ter perdido
+              Recupere a autoestima e a saúde que você nunca deveria ter perdido
             </h1>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 sm:p-5 border border-white/20 max-w-2xl mx-auto">
               <p className="text-xs sm:text-sm leading-relaxed text-white/95">
-                Com a alimentação adequada e mudanças possíveis, ele se reorganiza, desinflama e devolve a você o bem-estar e a vitalidade que ficaram pelo caminho.
+                Com a alimentação adequada e mudanças possíveis o corpo desinflama e devolve a você o bem-estar e a vitalidade que ficaram pelo caminho.
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Hero = memo(() => {
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-accent/60 border-2 border-white/50" />
             </div>
             <p className="text-xs sm:text-sm text-white/80">
-              + de <span className="font-bold text-white">200 pessoas</span> transformadas
+              + de <span className="font-bold text-white"> 500 pessoas</span> transformadas
             </p>
           </div>
         </div>
