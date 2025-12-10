@@ -48,6 +48,8 @@ const Team = () => {
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-top"
+                    loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="w-24 h-24 rounded-full bg-primary/20 flex items-center justify-center">

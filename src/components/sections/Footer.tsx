@@ -36,7 +36,7 @@ const Footer = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Localização do consultório"
-              className=""
+              sandbox="allow-scripts allow-same-origin"
             />
           </div>
         </div>

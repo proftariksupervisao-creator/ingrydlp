@@ -28,7 +28,7 @@ const About = () => {
             </div>
             
             <div className="relative min-h-[400px] md:min-h-full">
-              <img src={aboutImage} alt="Dra. Ingryd - Nutricionista Funcional" className="absolute inset-0 w-full h-full object-cover" />
+              <img src={aboutImage} alt="Dra. Ingryd - Nutricionista Funcional" className="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
             </div>
           </div>
         </Card>
