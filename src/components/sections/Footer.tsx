@@ -36,7 +36,7 @@ const Footer = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Localização do consultório"
-              className="grayscale hover:grayscale-0 transition-all duration-500"
+              className=""
             />
           </div>
         </div>
