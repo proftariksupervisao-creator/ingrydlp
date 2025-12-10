@@ -17,7 +17,7 @@ const teamMembers = [
   },
   {
     name: "Dr. Lucas Cardoso",
-    role: "Nutricionista Especializado em Endometriose",
+    role: "Nutricionista Especializado em Endometriose e Nutrição Esportiva",
     description: "Aprofunda o cuidado de pacientes com endometriose, trazendo um acompanhamento nutricional personalizado para quem convive com dores, inflamações e desequilíbrios hormonais.",
     image: drLucasImage,
   },
