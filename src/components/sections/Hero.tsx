@@ -40,7 +40,7 @@ const Hero = memo(() => {
           <div className="pt-6 sm:pt-8 animate-fade-in" style={{
           animationDelay: '0.2s'
         }}>
-            <Button variant="cta" size="lg" onClick={() => openWhatsApp()} data-gtm-section="hero" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-sm sm:text-base px-8 sm:px-12 py-5 sm:py-6 shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group">
+            <Button variant="cta" size="lg" onClick={() => openWhatsApp()} data-gtm-section="hero" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-sm sm:text-base px-8 sm:px-12 py-5 sm:py-6 shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group" title="https://wa.me/5511941837634">
               AGENDE SUA CONSULTA
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -93,7 +93,7 @@ const Hero = memo(() => {
             <div className="animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              <Button variant="cta" size="lg" onClick={() => openWhatsApp()} data-gtm-section="hero" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-lg px-12 py-6 shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group">
+              <Button variant="cta" size="lg" onClick={() => openWhatsApp()} data-gtm-section="hero" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-lg px-12 py-6 shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 group" title="https://wa.me/5511941837634">
                 AGENDE SUA CONSULTA
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
