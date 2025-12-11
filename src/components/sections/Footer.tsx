@@ -13,7 +13,7 @@ const Footer = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
-          <Button variant="cta" size="lg" onClick={() => openWhatsApp('Olá! Quero agendar minha consulta!')} data-gtm-section="footer" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-base px-10 py-6">
+          <Button variant="cta" size="lg" onClick={() => openWhatsApp('Olá! Quero agendar minha consulta!')} data-gtm-section="footer" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button text-base px-10 py-6" title="https://wa.me/5511941837634">
             AGENDE SUA CONSULTA
           </Button>
           

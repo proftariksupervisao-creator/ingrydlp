@@ -34,7 +34,7 @@ const About = () => {
         </Card>
         
         <div className="flex justify-center mt-12">
-          <Button variant="cta" size="lg" onClick={() => openWhatsApp('Olá, Dra. Ingryd! Quero conhecer melhor seu trabalho!')} data-gtm-section="about" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button">
+          <Button variant="cta" size="lg" onClick={() => openWhatsApp('Olá, Dra. Ingryd! Quero conhecer melhor seu trabalho!')} data-gtm-section="about" data-gtm-action="whatsapp-click" className="gtm-whatsapp-button" title="https://wa.me/5511941837634">
             AGENDE SUA CONSULTA
           </Button>
         </div>
