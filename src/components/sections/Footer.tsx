@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         
         <div className="text-sm text-primary-foreground/60 pt-8">
-          <p>© 2025 Ingryd Caroline - Nutrição</p>
+          <p>© 2026 Ingryd Caroline - Nutrição</p>
           <p className="mt-2">Todos os direitos reservados</p>
         </div>
       </div>
