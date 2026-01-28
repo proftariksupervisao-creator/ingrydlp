@@ -86,6 +86,10 @@ export default {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        "pulse-scale": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -95,6 +99,7 @@ export default {
         "marquee-slow": "marquee 80s linear infinite",
         "marquee-reverse-slow": "marquee-reverse 80s linear infinite",
         "scroll-testimonials": "scroll-testimonials 30s linear infinite",
+        "pulse-scale": "pulse-scale 2s ease-in-out infinite",
       },
     },
   },
